@@ -1,0 +1,33 @@
+﻿#panels {
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    padding: 22px 0 0 92px;
+    background-color: lightgray;
+}
+#lpanel {
+    width: 70%;
+    float: left;
+    margin: auto;
+    
+}
+#rpanel {
+    width: 30%;
+    background-color: lightgray;
+    float: right;
+    padding: 2px;
+}
+.limg{
+    
+    width:100%;
+    height:100%;
+    margin: 0px 0px 0px 0;
+}
+
+
+#footer{
+    position: relative;
+    clear: both;
+    padding: 2px;
+    background-color: lightgrey;
+}

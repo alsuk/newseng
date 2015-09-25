@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>News Engine</h1> <br />
+<br />
+<h2>Текущая дата: @DateTime.Today.ToShortDateString()</h2>
+
+@Html.Partial("_HumanPartialView")
+
+
+
+@section footer{
+    &copy; krogantz, @DateTime.Now.Year
+
+}

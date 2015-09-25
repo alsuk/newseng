@@ -1,0 +1,16 @@
+﻿@using NewsEngine.Models;
+@{
+    List<Human> hlist = new List<Human>();
+    Random random = new Random();
+    for (int i = 0; i < 10; i++)
+    {
+        hlist.Add(new Human($"Имя{i}", random.Next(18, 50), $"Город {i}"));
+    }
+
+
+    foreach (var item in hlist)
+    {
+        item.getName();
+    }
+}
+@Helpers1.PrintHuman(hlist,"Имя1")

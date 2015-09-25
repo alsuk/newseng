@@ -1,0 +1,12 @@
+﻿@helper PrintHuman(List<NewsEngine.Models.Human> hlist,string name){ 
+if (name != null)
+{
+    NewsEngine.Models.Human man = hlist.Find(e => e.getName().Equals(name));
+    if (man != null)
+    {
+            <h3>Имя: @man.getName()</h3>
+            <p>Возраст: @man.getAge()</p>
+            <p>Место рождения: @man.getBirth()</p>
+    }
+}
+}
